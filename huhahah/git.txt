@@ -1,21 +1,21 @@
-Ìí¼Ókey
-Ê×ÏÈÔÚ±¾µØ´´½¨ssh key£»
+ï¿½ï¿½ï¿½key
+ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½Ø´ï¿½ï¿½ï¿½ssh keyï¿½ï¿½
 ssh-keygen -t rsa -C "your_email@youremail.com"
 
-ÎªÁËÑéÖ¤ÊÇ·ñ³É¹¦£¬ÔÚgit bashÏÂÊäÈë£º
+Îªï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ç·ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½git bashï¿½ï¿½ï¿½ï¿½ï¿½ë£º
 $ ssh -T git@github.com
 
-½ÓÏÂÀ´ÎÒÃÇÒª×öµÄ¾ÍÊÇ°Ñ±¾µØ²Ö¿â´«µ½githubÉÏÈ¥£¬ÔÚ´ËÖ®Ç°»¹ĞèÒªÉèÖÃusernameºÍemail£¬ÒòÎªgithubÃ¿´Îcommit¶¼»á¼ÇÂ¼ËûÃÇ¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ä¾ï¿½ï¿½Ç°Ñ±ï¿½ï¿½Ø²Ö¿â´«ï¿½ï¿½githubï¿½ï¿½È¥ï¿½ï¿½ï¿½Ú´ï¿½Ö®Ç°ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½usernameï¿½ï¿½emailï¿½ï¿½ï¿½ï¿½ÎªgithubÃ¿ï¿½ï¿½commitï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ç¡ï¿½
 git config --global user.name "your name"
 $ git config --global user.email "your_email@youremail.com"
 
 
-½øÈëÒªÉÏ´«µÄ²Ö¿â£¬ÓÒ¼ügit bash£¬Ìí¼ÓÔ¶³ÌµØÖ·£º
+ï¿½ï¿½ï¿½ï¿½Òªï¿½Ï´ï¿½ï¿½Ä²Ö¿â£¬ï¿½Ò¼ï¿½git bashï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ìµï¿½Ö·ï¿½ï¿½
 $ git remote add origin git@github.com:yourName/yourRepo.git
 
 
 
-ÉÏ´«
+ï¿½Ï´ï¿½
 git init
 git add README.md
 git commit -m "first commit"
@@ -27,16 +27,24 @@ git push -u origin master
 git remote add origin git@github.com:Gaomeng1/gm_kbb_project.git
 git push -u origin master
 
-ÍÆËÍ¸Ä¶¯
+ï¿½ï¿½ï¿½Í¸Ä¶ï¿½
 git push origin master
-´´½¨Ò»¸ö½Ğ×ö"feature_x"µÄ·ÖÖ§£¬²¢ÇĞ»»¹ıÈ¥£º
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"feature_x"ï¿½Ä·ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½Ğ»ï¿½ï¿½ï¿½È¥ï¿½ï¿½
 git checkout -b feature_x
-ÇĞ»»»ØÖ÷·ÖÖ§£º
+ï¿½Ğ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
 git checkout master
-ÔÙ°ÑĞÂ½¨µÄ·ÖÖ§É¾µô£º
+ï¿½Ù°ï¿½ï¿½Â½ï¿½ï¿½Ä·ï¿½Ö§É¾ï¿½ï¿½
 git branch -d feature_x
-³ı·ÇÄã½«·ÖÖ§ÍÆËÍµ½Ô¶¶Ë²Ö¿â£¬²»È»¸Ã·ÖÖ§¾ÍÊÇ ²»ÎªËûÈËËù¼ûµÄ£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ã½«ï¿½ï¿½Ö§ï¿½ï¿½ï¿½Íµï¿½Ô¶ï¿½Ë²Ö¿â£¬ï¿½ï¿½È»ï¿½Ã·ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½
 git push origin <branch>
-¸üĞÂÓëºÏ²¢
-Òª¸üĞÂÄãµÄ±¾µØ²Ö¿âÖÁ×îĞÂ¸Ä¶¯£¬Ö´ĞĞ£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï²ï¿½
+Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½Ø²Ö¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸Ä¶ï¿½ï¿½ï¿½Ö´ï¿½Ğ£ï¿½
 git pull
+
+
+
+
+
+
+shit
+
