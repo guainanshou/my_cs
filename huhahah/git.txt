@@ -1,0 +1,42 @@
+添加key
+首先在本地创建ssh key；
+ssh-keygen -t rsa -C "your_email@youremail.com"
+
+为了验证是否成功，在git bash下输入：
+$ ssh -T git@github.com
+
+接下来我们要做的就是把本地仓库传到github上去，在此之前还需要设置username和email，因为github每次commit都会记录他们。
+git config --global user.name "your name"
+$ git config --global user.email "your_email@youremail.com"
+
+
+进入要上传的仓库，右键git bash，添加远程地址：
+$ git remote add origin git@github.com:yourName/yourRepo.git
+
+
+
+上传
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Gaomeng1/gm_kbb_project.git
+git push -u origin master
+
+
+
+git remote add origin git@github.com:Gaomeng1/gm_kbb_project.git
+git push -u origin master
+
+推送改动
+git push origin master
+创建一个叫做"feature_x"的分支，并切换过去：
+git checkout -b feature_x
+切换回主分支：
+git checkout master
+再把新建的分支删掉：
+git branch -d feature_x
+除非你将分支推送到远端仓库，不然该分支就是 不为他人所见的：
+git push origin <branch>
+更新与合并
+要更新你的本地仓库至最新改动，执行：
+git pull
