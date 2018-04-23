@@ -1,50 +1,8 @@
-���key
-�����ڱ��ش���ssh key��
-ssh-keygen -t rsa -C "your_email@youremail.com"
-
-Ϊ����֤�Ƿ�ɹ�����git bash�����룺
-$ ssh -T git@github.com
-
-����������Ҫ���ľ��ǰѱ��زֿ⴫��github��ȥ���ڴ�֮ǰ����Ҫ����username��email����Ϊgithubÿ��commit�����¼���ǡ�
-git config --global user.name "your name"
-$ git config --global user.email "your_email@youremail.com"
-
-
-����Ҫ�ϴ��Ĳֿ⣬�Ҽ�git bash�����Զ�̵�ַ��
-$ git remote add origin git@github.com:yourName/yourRepo.git
-
-
-
-�ϴ�
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:Gaomeng1/gm_kbb_project.git
-git push -u origin master
-
-
-
-git remote add origin git@github.com:Gaomeng1/gm_kbb_project.git
-git push -u origin master
-
-���͸Ķ�
-git push origin master
-����һ������"feature_x"�ķ�֧�����л���ȥ��
-git checkout -b feature_x
-�л�������֧��
-git checkout master
-�ٰ��½��ķ�֧ɾ��
-git branch -d feature_x
-�����㽫��֧���͵�Զ�˲ֿ⣬��Ȼ�÷�֧���� ��Ϊ���������ģ�
-git push origin <branch>
-������ϲ�
-Ҫ������ı��زֿ������¸Ķ���ִ�У�
-git pull
-
-
-
-
 
 哈哈哈
 shit
+
+
+
+hhhhhhhhhhhhhhhhhhhhh
 
